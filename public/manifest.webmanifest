@@ -1,0 +1,18 @@
+{
+  "name": "The Study",
+  "short_name": "The Study",
+  "description": "An interactive escape room game",
+  "start_url": "/escape-room-6/",
+  "scope": "/escape-room-6/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/escape-room-6/favicon.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    }
+  ]
+}

@@ -53,10 +53,10 @@ export function Phone() {
     stopRing.current?.();
     setCalling(false);
     setOnCall(true);
-    speak(
-      `${who}. The last four numbers. Glass. Study. Hall. Camera. I will be waiting on the other side of that door.`,
-      { pitch: 0.3, rate: 0.7 },
-    );
+    speak(`${who}. Staring at the keypad, and knowing you don't have clue. Poor little thing.`, {
+      pitch: 0.3,
+      rate: 0.7,
+    });
     window.setTimeout(() => setOnCall(false), 16000);
   };
 

@@ -78,11 +78,15 @@ export function Door() {
           <p className="mx-auto mt-3 max-w-md text-sm leading-relaxed text-muted-foreground">
             Cold air. A corridor that was not there an hour ago. Behind you the study light goes out
             on its own, and the tape clicks on one more time to say a single word:{" "}
-            <span className="text-primary">{name || "your name"}</span>.
+            <span className="text-primary">
+              {name.replace(/\s+/g, "") + "202" || "BoringBill202"}
+            </span>
+            .
             <br />
             <br />
             You are out. Something else is too.
           </p>
+          <h3>The password is "SeasonSpooky202"</h3>
         </div>
       )}
     </Panel>

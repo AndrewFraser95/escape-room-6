@@ -123,9 +123,12 @@ function Room() {
           <Notes />
 
           {escaped && (
-            <p className="animate-fade-in text-center font-mono text-xs tracking-[0.3em] text-accent uppercase">
-              — end —
-            </p>
+            <div>
+              <h1>The password is "SeasonSpooky202"</h1>
+              <p className="animate-fade-in text-center font-mono text-xs tracking-[0.3em] text-accent uppercase">
+                — end —
+              </p>
+            </div>
           )}
         </main>
       </div>

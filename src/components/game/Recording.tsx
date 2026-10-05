@@ -11,7 +11,7 @@ const LINES: { at: number; who: "a" | "b"; text: string }[] = [
   { at: 21, who: "b", text: "the last room she names goes first" },
   { at: 26, who: "a", text: "Who is there? Who said that?" },
   { at: 29, who: "b", text: "the eye that watches always goes last" },
-  { at: 34, who: "b", text: "and the dark comes straight after the room that changed" },
+  { at: 34, who: "b", text: "and the watched comes straight after the room that moved" },
   { at: 40, who: "a", text: "Stop the tape. Stop the—" },
 ];
 const END = 44;

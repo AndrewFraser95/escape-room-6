@@ -86,7 +86,6 @@ export function Door() {
             <br />
             You are out. Something else is too.
           </p>
-          <h3>The password is "SeasonSpooky202"</h3>
         </div>
       )}
     </Panel>
